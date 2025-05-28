@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos destacados</title>
+    <link rel="stylesheet" href="Proyecto2.css">
+    <script src="https://kit.fontawesome.com/10d417fb96.js" crossorigin="anonymous"></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+
+        .contenedor-carrusel {
+            width: 80%;
+            max-width: 600px;
+            height: 500px;
+            overflow: hidden;
+            position: relative;
+            margin: 67px auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+           
+            
+        }
+
+        .carrusel {
+            display: flex;
+            width: 100%;
+        }
+
+        .carrusel-item {
+            min-width: 100%;
+            transition: transform 0.5s ease-in-out;
+            position: relative
+
+        }
+
+        .carrusel img {
+            width: 100%;
+            height: 450px;
+            border-radius: 10px;
+            position: relative;
+            top:69px;
+            animation:opacidad 15s infinite;
+        }
+
+        .product-name {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            font-size: 25px;
+            position: absolute;
+            top:0;
+            width: 100%;
+            height:70px;
+            border-radius:5px;
+            text-align: center;
+            z-index: 50;
+
+            font-family: "Carattere", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .ti {
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 10px;
+            font-size: 15px;
+            position: absolute;
+            top:0;
+            width: 100%;
+            height:50px;
+            border-radius:5px;
+            text-align: center;
+
+            font-family: "Cinzel Decorative", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+         .prin {
+            width: 95%;
+            max-width: 650px;
+            height: 580px;
+            overflow: hidden;
+            position: relative;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+            
+        }
+            @media(max-width:450px){
+     .prin {
+        top: 10px;
+        width: 95%;
+        max-width: 650px;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        margin: 5px auto;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(207, 58, 38,1);
+    }
+    .ti {
+        background: rgba(0, 0, 0, 0.9);
+        color: white;
+        padding: 10px;
+        font-size: 10px;
+        position: absolute;
+        top:0;
+        width: 100%;
+        height:30px;
+        border-radius:5px;
+        text-align: center;
+    }
+    .contenedor-carrusel {
+        width: 80%;
+        max-width: 300px;
+        height: 250px;
+        overflow: hidden;
+        position: relative;
+        margin: 40px auto;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+       
+        
+    }
+
+    .carrusel {
+        display: flex;
+        width: 100%;
+    }
+
+    .carrusel-item {
+        min-width: 100%;
+        transition: transform 0.5s ease-in-out;
+        position: relative
+
+    }
+
+    .carrusel img {
+        width: 100%;
+        height: 225px;
+        border-radius: 10px;
+        position: relative;
+        top:33px;
+        animation:opacidad 15s infinite;
+    }
+
+    .product-name {
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 10px;
+        font-size: 10px;
+        position: absolute;
+        top:0;
+        width: 100%;
+        height:33px;
+        border-radius:5px;
+        text-align: center;
+        z-index: 50;
+
+    }
+            }
+        
+    </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Carattere&family=Carter+One&family=Cinzel+Decorative:wght@400;700;900&family=Codystar:wght@300;400&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Federo&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Hanalei&family=Hanalei+Fill&family=Oregano:ital@0;1&family=Permanent+Marker&family=Playwrite+NZ:wght@100..400&family=Roboto+Slab&family=Tagesschrift&family=Trade+Winds&family=Whisper&family=Workbench&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="boton"><i class="fa fa-bars" aria-hidden="true"></i></div>
+    <div class="cl">
+   <div class="kevin"> <div class="cabeza show"> <img src="Logo.jpg" class="logo" alt="10px"> <div class="titulos"><p class="titulo1"><b>  LA CASA DE LA ABUELA </b><br></p> <p class="titulo">Tienda de comida y más</p></div> <div class="menu"><ul class="bar"> <li><a href="Proyecto.html">Historia</a></li>  <li><a href="preparados.html">Preparados</a></li> <li><a href="productos.html">Productos</a></li></ul></div></div>
+   <div class="in">Inicio</div> </div> 
+</div>
+ 
+
+<div class="contenido"> 
+    <div class="text"> <div class="eslogan2"><p class="a"> <b>Con el sazón de la abuela</b> </p></div> 
+   <div class="prin"> <div class="ti"><h2>Productos Destacados</h2></div>
+
+    <div class="contenedor-carrusel">
+        <div class="carrusel" id="carrusel">
+            <div class="carrusel-item">
+                <img src= "MARUCHAN.jpg" alt="Maruchan">
+                <div class="product-name">Maruchan Preparada <br>$25 </div>
+            </div>
+            <div class="carrusel-item">
+                <img src="DORILOCOS.jpg" alt="Dorilocos">
+                <div class="product-name">Dorilocos <br>$35</div>
+            </div>
+            <div class="carrusel-item">
+                <img src="BOING.jpg" alt="Boing">
+                <div class="product-name">Boing <br>$15</div>
+            </div>
+            <div class="carrusel-item">
+                <img src="TORTAJA.png" alt="Torta de Jamón">
+                <div class="product-name">Torta de Jamón <br>$18</div>
+            </div>
+            <div class="carrusel-item">
+                <img src="TORTASALCHICHA.jpg" alt="Torta de salchicha">
+                <div class="product-name">Torta de Salchicha <br>$18</div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+    <div class="imvi"> <img src="Logo.jpg" class="img2" alt="20px"> <video controls autoplay muted> <source src="PROD.mp4" type="video/mp4"> Su navegador no puede reproducir este tipo de video </video> </div></div>
+ <div class="pie"><ul><li><a href="Mapa.html">Mapa</a></li></ul></div> 
+<script src="menu.js"> </script>
+    <script>
+        let index = 0;
+        const carrusel = document.getElementById('carrusel');
+        const items = document.querySelectorAll('.carrusel-item');
+        const totalItems = items.length;
+
+        function moveCarrusel() {
+            index++;
+            if (index >= totalItems) {
+                index = 0;
+            }
+            carrusel.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        setInterval(moveCarrusel, 3000); 
+    </script>
+
+</body>
+</html>

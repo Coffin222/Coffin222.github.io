@@ -1,0 +1,285 @@
+.cabeza{
+    display: flex;
+    background-color: rgb(139, 40, 26);
+    border: 2px solid rgb(139, 40, 26);
+    width: 100%;
+    height: 130px;
+    justify-content: space-around;
+    border-radius: 20px;
+    position: fixed;
+    z-index: 120;
+}
+iframe{
+    margin-top: 50px;
+    margin-left: 45px;
+  }
+.cl{
+    z-index: 120;
+    display: flex;
+}
+.abc{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 10px;
+    margin-top: 150px;
+}
+.a{
+    background-color: rgb(250, 230, 141);
+    border: 2px solid rgb(250, 230, 141);
+    border-radius: 20px;
+    height: 600px; 
+
+}
+.pr{
+    background-color: rgb(202, 60, 16);
+    border: 2px solid rgb(202, 60, 16);
+    width: 160px;
+    height: 30px;
+    position: relative;
+    top: 85px;
+    right: 43.8%;
+    border-radius: 15px;
+    text-align: center;
+    color: bisque;
+    font-size: 25px;
+    letter-spacing: 2px;
+
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+}
+.od{
+    position: relative;
+    bottom: 23px;
+}
+.mapa{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    border-radius: 20px;
+}
+.b{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 33% 65.5%;
+    gap: 10px;
+}
+.bb{
+    background-color:rgb(252, 180, 86);
+    font-size: 20px;
+    border: 2px solid rgb(252, 180, 86);
+    border-radius: 20px;
+    
+    font-family: "Cinzel Decorative", serif;
+            font-weight: 400;
+           font-style: italic;
+}
+.c{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+}
+.c1{
+    background-image: url("Tienda.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(95, 4, 4);
+    border-radius: 20px 0px 0px 0px;
+}
+.c2{
+    background-image: url("UnMapa.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(95, 4, 4);
+    border-radius: 0px 20px 0px 0px;
+}
+.c3{
+    background-image: url("OtroMapa.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(95, 4, 4);
+    border-radius: 0px 0px 0px 20px;
+}
+.c4{
+    background-image: url("Colonia.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(95, 4, 4);
+    border-radius: 0px 0px 20px 0px;
+}
+.menu{
+    word-spacing: 20px;
+    position: relative;
+    left: 250px;
+}
+body{
+    background-color:  rgb(248, 255, 206);
+}
+.logo{
+    width: 10%;
+    height: 100px;
+    padding-top: 10px;
+}
+.menu a{
+    color: azure;
+    font-family: garamond;
+}
+.menu li{
+    display: inline;
+}
+.menu a:hover{
+    text-decoration: underline;
+    color: rgb(245, 212, 104);
+}
+.titulos{
+    text-align: center;
+    color: azure;
+    line-height: 5px;
+}
+.titulo1{
+    word-spacing: 7px;
+    font-size: 30px;
+    position: relative;
+    left: 180px;
+
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.titulo{
+    position: relative;
+    left: 180px;
+    font-family: 'Times New Roman';
+}
+
+.boton{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    
+}
+
+@media(max-width:451px){
+    .boton {
+        display: inline-block;
+        position: relative;
+        left: 410px;
+        
+    }
+    .cl div.cabeza{
+        display: grid;
+        grid-template-rows: (3,1fr);
+        width: 28%;
+        height: 90%;
+        justify-content: space-around;
+        border-radius: 20px;
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        padding: 30px;
+        opacity: 0.9;
+        transform: translate(-500px);
+        transition: transform 0.5s ease-in-out;
+        position: fixed;
+         
+    }
+    .abc{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 60% 40%;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .a{
+        border-radius: 20px;
+        height: 400px; 
+    }
+    .mapa{
+        height: 350px;
+        width: 350px;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        border-radius: 20px;
+    }
+    .b{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        grid-template-columns: 33% 65.5%;
+        gap: 10px;
+        padding-top: 15px;
+    }
+    .bb{
+        font-size: 15px;
+        border-radius: 20px;
+        font-style: italic;
+        text-align: center;
+        line-height: 20px;
+    }
+    .cl div.cabeza.show {
+        transform: translate(-20px);
+
+    }
+    
+    .menu li{
+        display: block;
+        
+    }
+    .menu{
+        position: absolute;
+        left: 5px;
+        top: 80%;
+        
+    }
+    .titulo1{
+        word-spacing: 5px;
+        font-size: 20px;
+        position: absolute;
+        left: 10px;
+        top: 35%;
+        line-height: 20px;     
+    }
+    .logo{
+        width: 90%;
+        height: 100px;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+    .pr{
+       
+        width: 130px;
+        height: 20px;
+        position: absolute;
+        top: 55%;
+        left: 30px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .titulo{
+        position: absolute;
+        left: 20px;
+        top: 45%;
+        line-height: 15px;
+    }
+    .od{
+        position: relative;
+        bottom: 23px;
+    }
+    iframe{
+        height: 350px;
+        width: 400px;
+        margin-top: 25px;
+        margin-left: 13px;
+      }
+}

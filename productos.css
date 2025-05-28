@@ -1,0 +1,680 @@
+.cabeza{
+    display: flex;
+    background-color: rgb(139, 40, 26);
+    border: 2px solid rgb(139, 40, 26);
+    width: 100%;
+    height: 170px;
+    justify-content: space-around;
+    border-radius: 20px;
+    position: fixed;
+    z-index: 120;
+}
+.cl{
+    z-index: 120;
+    display: flex;
+}
+.a{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: auto;
+    padding-top: 180px;
+    position: relative;
+    left: 10px;
+    z-index: 100;
+    
+}
+.a1{
+    border: 2px solid rgb(252, 180, 86);
+    background-color:rgb(252, 180, 86) ;
+    border-radius: 30px;
+    width: 220px;
+    height: 320px;
+   margin-top: 15px;
+    margin-bottom: 15px;
+    z-index: 100;
+}
+.b2{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+}
+.maruchan{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+    animation:colores 10s infinite;
+    background-image: url("maruchancamaron.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes colores {
+    0%{
+        background-image: url("maruchancamaron.jpeg");
+        
+    }
+    33.33%{
+        background-image: url("maruchanhabanero.jpeg");
+        
+    }
+    66.66%{
+        background-image: url("maruchanpiquin.jpeg");
+        
+    }
+    100%{
+        background-image: url("Maruchanpollo.jpeg");
+        
+    }
+ }
+ .emperador20{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+    animation: emp 10s infinite;
+    background-image: url("emperadormas.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes emp {
+    0%{
+        background-image: url("emperadormas.jpeg");
+        
+    }
+    50%{
+        background-image: url("emperadorgladiador.jpeg");
+        
+    }
+    100%{
+        background-image: url("emperadorsenzo.jpeg");
+        
+    }
+}
+.doritos{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+    animation: doritos 10s infinite;
+    background-image: url("DoritosM.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes doritos {
+    0%{
+        background-image: url("DoritosM.jpeg");
+        
+    }
+    50%{
+        background-image: url("DoritosN.jpeg");
+        
+    }
+    100%{
+        background-image: url("DoritosR.jpeg");
+        
+    }
+}
+ .gomitas{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+    animation:gomitas 10s infinite;
+    background-image: url("gusanos1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes gomitas {
+    0%{
+        background-image: url("gusanos1.jpeg");
+        
+    }
+    16.66%{
+        background-image: url("mangos.jpeg");
+        
+    }
+    33.33%{
+        background-image: url("panditas_normales.jpeg");
+        
+    }
+    50%{
+        background-image: url("GPE.jpeg");
+        
+    }
+    66.66%{
+        background-image: url("GPA.jpeg");
+        
+    }
+    83.33%{
+        background-image: url("Gfrutales.jpeg");
+        
+    }
+    100%{
+        background-image: url("tiburones.jpeg");
+        
+    }
+ }
+ .Chicles{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+    animation:chicles 10s infinite;
+    background-image: url("Clorets.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes chicles {
+    0%{
+        background-image: url("Clorets.jpeg");
+        
+    }
+    14.28%{
+        background-image: url("CanelsHB.jpeg");
+        
+    }
+    28.57%{
+        background-image: url("CanelsM.jpeg");
+        
+    }
+    42.28%{
+        background-image: url("CanelsMA.jpeg");
+        
+    }
+    57.14%{
+        background-image: url("CanelsP.jpeg");
+        
+    }
+    71.42%{
+        background-image: url("TridentF.jpeg");
+        
+    }
+    85.71%{
+        background-image: url("TridentHB.jpeg");
+        
+    }
+    100%{
+        background-image: url("TridentMA.jpeg");
+        
+    }
+ }
+ .boing{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+    animation:boingch 10s infinite;
+    background-image: url("guayaba250.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes boingch {
+    0%{
+        background-image: url("guayaba250.jpeg");
+        
+    }
+    33.33%{
+        background-image: url("mango250.jpeg");
+        
+    }
+    66.66%{
+        background-image: url("manzana250.jpeg");
+        
+    }
+    100%{
+        background-image: url("Uva250.jpeg");
+        
+    }
+ }
+ .Winis{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+    animation:winis 10s infinite;
+    background-image: url("Wcereza.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes winis {
+    0%{
+        background-image: url("Wcereza.jpeg");
+        
+    }
+    33.33%{
+        background-image: url("Wlimon.jpeg");
+        
+    }
+    66.66%{
+        background-image: url("Wnaranja.jpeg");
+        
+    }
+    100%{
+        background-image: url("Wuva.jpeg");
+        
+    }
+ }
+ .boing5{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+    animation:boing 10s infinite;
+    background-image: url("guayaba.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes boing {
+    0%{
+        background-image: url("guayaba.jpeg");
+        
+    }
+    33.33%{
+        background-image: url("mango.jpeg");
+        
+    }
+    66.66%{
+        background-image: url("manzana.jpeg");
+        
+    }
+    100%{
+        background-image: url("uva.jpeg");
+        
+    }
+ }
+ .Jarritos{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+    animation:jarritos 10s infinite;
+    background-image: url("Jlimon.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes jarritos {
+    0%{
+        background-image: url("Jlimon.jpeg");
+        
+    }
+    14.28%{
+        background-image: url("Jmandarina.jpeg");
+        
+    }
+    28.56%{
+        background-image: url("Jmanzana.jpeg");
+        
+    }
+    42.84%{
+        background-image: url("Juva.jpeg");
+        
+    }
+    57.12%{
+        background-image: url("Jtutifruti.jpeg");
+        
+    }71.4%{
+        background-image: url("Jtamarindo.jpeg");
+        
+    }85.68%{
+        background-image: url("Jtoronja.jpeg");
+        
+    }
+    100%{
+        background-image: url("Jpiña.jpeg");
+        
+    }
+ }
+ .Jarritos2l{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+    animation:jarritos2l 10s infinite;
+    background-image: url("Jlimon.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes jarritos2l {
+    0%{
+        background-image: url("JL2.jpeg");
+        
+    }
+    14.28%{
+        background-image: url("JMA2.jpeg");
+        
+    }
+    28.56%{
+        background-image: url("JM2.jpeg");
+        
+    }
+    42.84%{
+        background-image: url("JU2.jpeg");
+        
+    }
+    57.12%{
+        background-image: url("JTT2.jpeg");
+        
+    }71.4%{
+        background-image: url("JTA2.jpeg");
+        
+    }85.68%{
+        background-image: url("JTO2.jpeg");
+        
+    }
+    100%{
+        background-image: url("JP2.jpeg");
+        
+    }
+ }
+ .bT{
+    width: 220px;
+    height: 230px;
+    border-radius: 26px 26px 0px 0px;
+    animation:colores2 10s infinite;
+    background-image: url("totis.jpeg");
+    background-size: cover;
+    background-position: center;
+ }
+ @keyframes colores2 {
+    0%{
+        background-image: url("totis.jpeg");
+        
+    }
+    33.33%{
+        background-image: url("totisadobadas.jpeg");
+        
+    }
+    66.66%{
+        background-image: url("totispicantes.jpeg");
+        
+    }
+    100%{
+        background-image: url("totishot.jpeg");
+        
+    }
+ }
+.c1{
+    background-color: rgb(252, 180, 86);
+    position: relative;
+    width: 220px;
+    height: 90px;
+    border-radius: 0px 0px 26px 26px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(139, 40, 26);
+    line-height: 18px;
+   
+
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.pr{
+    background-color: rgb(202, 60, 16);
+    border: 2px solid rgb(202, 60, 16);
+    width: 195px;
+    height: 40px;
+    position: relative;
+    top: 110px;
+    right: 41.5%;
+    border-radius: 15px;
+    text-align: center;
+    color: bisque;
+    font-size: 32px;
+    font-family: garamond;
+}
+.od{
+    position: relative;
+    bottom: 32px;
+    letter-spacing: 2px;
+
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+}
+.menu{
+    word-spacing: 20px;
+    position: relative;
+    left: 310px;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(248, 255, 206);
+}
+.logo{
+    width: 10%;
+    height: 135px;
+    padding-top: 10px;
+}
+.menu a{
+    color: azure;
+    font-family: garamond;
+}
+.menu li{
+    display: inline;
+}
+.menu a:hover{
+    text-decoration: underline;
+    color: rgb(245, 212, 104);
+}
+.titulos{
+    text-align: center;
+    color: azure;
+    line-height: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+.titulo1{
+    word-spacing: 7px;
+    font-size: 38px;
+    position: relative;
+    left: 200px;
+
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.titulo{
+    position: relative;
+    left: 200px;
+}
+.pie{
+    display: flex;
+    background-color: rgb(241, 72, 42);
+    border: 2px solid rgb(241, 72, 42);
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    word-spacing: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.boton{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    
+}
+.pie a{
+    color: azure;
+}
+.pie li{
+    display: inline;
+    padding-left: 770px;
+}
+.pie a:hover{
+    text-decoration: line-through;
+    color: aquamarine;
+}
+@media(max-width:451px){
+    .boton {
+        display: inline-block;
+        position: relative;
+        left: 410px;
+    }
+    .cl div.cabeza{
+        display: grid;
+        grid-template-rows: (3,1fr);
+        width: 30%;
+        height: 90%;
+        justify-content: space-around;
+        border-radius: 20px;
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        padding: 30px;
+        opacity: 0.9;
+        transform: translate(-500px);
+        transition: transform 0.5s ease-in-out;
+         position: fixed;
+    }
+    
+    .cl div.cabeza.show {
+        transform: translate(-20px);
+
+    }
+    .pie{
+        display: flex;
+        width: 420px;
+        height: 50px;
+        border-radius: 20px;
+        word-spacing: 5px;
+        margin-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 15px;
+    }
+    .pie li{
+        display: inline;
+        padding-left: 150px;
+    }
+    .menu li{
+        display: block;
+       
+    }
+    .titulo1{
+        word-spacing: 5px;
+        font-size: 12px;
+    }
+    .titulos{
+        font-size: 16px;
+    }
+    .logo{
+        width: 90%;
+        height: 100px;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .a{
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+        padding-top: 0px;
+        position: relative;
+        left: 24px;
+        z-index: 100;
+    }
+    .a1{
+        border-radius: 30px;
+        width: 160px;
+        height: 220px;
+       margin-top: 15px;
+        margin-bottom: 15px;
+        z-index: 100;
+    }
+    .b2{
+        width: 160px;
+        height: 160px;
+        border-radius: 26px 26px 0px 0px;
+    }
+    .boing{
+        width: 160px;
+        height: 160px;
+    }
+    .boing5{
+        width: 160px;
+        height: 160px;
+    }
+    .Winis{
+        width: 160px;
+        height: 160px;
+    }
+    .Jarritos{
+        width: 160px;
+        height: 160px;
+    }
+    .Jarritos2l{
+        width: 160px;
+        height: 160px;
+    }
+    .maruchan{
+        width: 160px;
+        height: 160px;
+    }
+    .gomitas{
+        width: 160px;
+        height: 160px;
+    }
+    .Chicles{
+        width: 160px;
+        height: 160px;
+    }
+    .doritos{
+        width: 160px;
+        height: 160px;
+    }
+    .emperador20{
+        width: 160px;
+        height: 160px;
+    }
+    .bT{
+        width: 160px;
+        height: 160px;
+    }
+    .c1{
+        position: relative;
+        width: 160px;
+        height: 60px;
+        border-radius: 0px 0px 26px 26px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 15px;
+    }
+    .pr{
+       
+        width: 130px;
+        height: 20px;
+        position: absolute;
+        top: 55%;
+        left: 30px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .titulo{
+        position: absolute;
+        left: 20px;
+        top: 45%;
+        line-height: 15px;
+        text-align: center;
+    }
+    .od{
+        position: relative;
+        bottom: 23px;
+    }
+    .menu{
+        position: absolute;
+        left: 5px;
+        top: 80%;
+    }
+    .menu li{
+        font-size: 16px;
+    }
+    .titulo1{
+        word-spacing: 5px;
+        font-size: 20px;
+        position: absolute;
+        left: 10px;
+        top: 35%;
+        line-height: 20px;
+    }
+}
