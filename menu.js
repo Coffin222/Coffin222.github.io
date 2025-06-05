@@ -1,0 +1,1 @@
+document.querySelector('.boton').addEventListener('click',()=>{document.querySelector('.cabeza').classList.toggle('show');})
